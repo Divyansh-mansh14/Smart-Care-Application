@@ -115,7 +115,7 @@
 
 
           <div class="d-flex align-items-stretch">
-            <form action="" method="post" role="form" class="php-email-form">
+            <form id="contactForm" action="/index.html" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name" style="font-size: 25px;">Your Name</label>
@@ -132,7 +132,7 @@
               </div>
               <div class="form-group mt-3">
                 <label for="name" style="font-size: 25px;">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
+                <textarea class="form-control" name="message" id="message" rows="10" required></textarea>
               </div>
               <div class="my-3">
                 <div class="loading">Loading</div>
@@ -159,11 +159,11 @@
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!-- <script src="assets/vendor/php-email-form/validate.js"></script> -->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
-
+  <script src="./contact.js"></script>
 </body>
 
 </html>
